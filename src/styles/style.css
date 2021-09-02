@@ -1,0 +1,77 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: #59b8e0;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 29px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header>img{
+    margin-right: 10px;
+    height: 100px;
+}
+
+header :nth-child(1){
+    color: #00649E;
+}
+
+header :nth-child(2){
+    color: #006127;
+}
+
+header :nth-child(3){
+    display: block;
+    color: #FFCC00;
+}
+
+.monthSelect{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: #269132;
+    height: 40px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    color: #dae910;
+}
+
+div.monthSelect span{
+    margin: 0px 50px;
+}
+
+div.monthSelect a{
+    color: #eff0f1;
+}
+
+.dezenasSorteadas{
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.dezenasSorteadaNumeros{
+    display: block;
+    width: 100vw;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
